@@ -12,8 +12,12 @@ const ClassBlock = ({ class: classItem }: ClassBlockProps) => {
     const [startHour, startMinute] = classItem.startTime.split(':').map(Number);
     const [endHour, endMinute] = classItem.endTime.split(':').map(Number);
     
-    const startPosition = (startHour - 8) * 60 + startMinute;
-    const duration = (endHour - startHour) * 60 + (endMinute - startMinute);
+    const startFromMidnight = startHour * 60 + startMinute;
+    const endFromMidnight = endHour * 60 + endMinute;
+    const dayStart = 8 * 60; // 8:00 AM
+    
+    const startPosition = ((startFromMidnight - dayStart) / 60) * 60;
+    const duration = ((endFromMidnight - startFromMidnight) / 60) * 60;
     
     return {
       top: `${startPosition}px`,

@@ -8,7 +8,10 @@ interface ScheduleProps {
 
 const Schedule = ({ schedule }: ScheduleProps) => {
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-  const timeSlots = Array.from({ length: 11 }, (_, i) => `${i + 8}:00`);
+  const timeSlots = Array.from({ length: 12 }, (_, i) => {
+    const hour = i + 8;
+    return hour < 10 ? `0${hour}:00` : `${hour}:00`;
+  });
 
   return (
     <Container>

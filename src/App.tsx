@@ -4,8 +4,6 @@ import type { Class, WeekSchedule } from './types/schedule';
 import { getRandomColor } from './utils/helpers';
 import { parseCSV } from './utils/csvParser';
 
-import { parseCSV, readScheduleFile } from './utils/csvParser';
-
 function App() {
   const [schedule, setSchedule] = useState<WeekSchedule>([]);
 
