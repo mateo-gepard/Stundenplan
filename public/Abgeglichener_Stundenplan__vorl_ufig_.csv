@@ -1,0 +1,34 @@
+Day,Start,End,Subject,Teacher,Course,Room,Notes
+Monday,09:35,10:20,Deutsch,Dab,D2,405,OK
+Monday,10:40,11:25,Deutsch,Dab,D2,405,OK (double)
+Monday,11:25,12:10,Kunst,Goe,Ku3,WS1,OK
+Monday,12:30,13:15,Kunst,Goe,Ku3,WS1,OK (double)
+Tuesday,08:00,08:45,Physik-LK,Tdi,Ph_L,012,Mapped from INF (was Brk on sheet 1)
+Tuesday,08:45,09:30,Physik-LK,Tdi,Ph_L,012,Mapped from INF (double)
+Tuesday,09:35,10:20,WR,Gia,,310,OK
+Tuesday,10:40,11:25,Mathe,Brk,M2,WS2,OK
+Tuesday,11:25,12:10,Mathe,Brk,M2,WS2,OK (double)
+Tuesday,12:30,13:15,(SMW?),Grm,,,"UNSURE: Fachkürzel ""Smw"" – bitte bestätigen"
+Tuesday,13:15,14:00,(SMW?),Grm,,,"UNSURE: Fachkürzel ""Smw"" – bitte bestätigen"
+Tuesday,14:45,15:30,Englisch,Hag,E3,WS3,OK
+Wednesday,08:00,08:45,Biologie,Bei,B2,308,OK
+Wednesday,08:45,09:30,Deutsch,Dab,D2,307,OK
+Wednesday,09:35,10:20,Deutsch,Dab,D2,307,OK (double)
+Wednesday,10:40,11:25,Ethik,Dax,Eth1,WS3,OK
+Wednesday,11:25,12:10,Ethik,Dax,Eth1,WS3,OK (double)
+Wednesday,12:30,13:15,Geschichte,Pip,G1,WS4,OK
+Wednesday,13:15,14:00,Geschichte,Pip,G1,WS4,OK (double)
+Thursday,08:00,08:45,Physik-LK,Tdi,Ph_L,006,Mapped from INF (OK)
+Thursday,08:45,09:30,Physik-LK,Tdi,Ph_L,006,Mapped from INF (double)
+Thursday,09:35,10:20,WR,Gia,,307,OK
+Thursday,11:25,12:10,Biologie,Bei,B2,308,OK
+Thursday,12:30,13:15,Biologie,Bei,B2,308,OK (double)
+Friday,08:00,08:45,PuG,Hok,PuG?,WS1,Teacher Hok → likely WS1 (sheet2)
+Friday,08:45,09:30,PuG,Hok,PuG?,WS1,double
+Friday,09:35,10:20,Mathe,Brk,M2,WS2,OK
+Friday,10:40,11:25,Mathe,Brk,M2,WS2,OK (double)
+Friday,11:25,12:10,Englisch,Hag,E3,WS3,TIME CONFLICT vs sheet2 (which shows E3 at 14:45)
+Friday,12:30,13:15,Englisch,Hag,E3,WS3,TIME CONFLICT (double)
+Friday,13:15,14:00,Physik-LK,Tdi,Ph_L,012,Mapped from INF; please confirm group/time
+Friday,14:00,14:45,Geschichte,Bej,G?,404,OK
+Friday,14:45,15:30,Geschichte,Bej,G?,,UNSURE: sheet2 shows other courses here
